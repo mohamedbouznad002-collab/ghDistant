@@ -1,0 +1,16 @@
+#!/bin/bash
+ 
+read -p "Verifier et enregistrer ce commit ? (y/[n]) ?" yn < /dev/tty
+yn=${yn:-n}
+ 
+case $yn in
+  [Yy]* )
+    mkdir -p suivi
+    echo "commit verifie le $(date '+%d/%m/%Y %H:%M:%S')" > suivi/commitInfo.txt
+    git add suivi/commitInfo.txt
+    exit 0;;
+  [Nn]* )
+    exit 0;;
+esac
+ 
+exit 0
