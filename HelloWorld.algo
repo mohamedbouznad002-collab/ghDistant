@@ -17,5 +17,6 @@ Algo HelloWorld {
     Ajouter le label sur la fenetre
     Afficher la fenetre
     Creer un label avec la date du jour
+    // Version synchronisee GitLab
   }
 }
