@@ -2,7 +2,7 @@ Algo HelloWorld {
   fonction principale {
     // Creation de la fenetre
     Creer une fenetre de titre HELLO_WORLD
-    Mettre la dimension a 250, 200
+    Mettre la dimension a 350, 200
     Configurer la fenetre sur 'exitOnClose'
     Mettre le fond d'ecran en orange
     Mettre le fond d'ecran en violet
